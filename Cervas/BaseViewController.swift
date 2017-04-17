@@ -76,5 +76,12 @@ class BaseViewController: UIViewController {
         
     }
 
+    func loadImage(urlString:String) -> UIImage{
+        
+        let url = URL(string: urlString)
+        let data = try? Data(contentsOf: url!)
+        return UIImage(data: data!)!
+        
+    }
 
 }

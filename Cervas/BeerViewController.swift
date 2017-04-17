@@ -97,7 +97,6 @@ class BeerViewController: BaseViewController, UITableViewDelegate, UITableViewDa
     //CAll rest api
     func callBeers(){
         Alamofire.request(URL_BEERS).responseJSON { response in
-            //var beer: BeerModel!
             if let array = response.result.value as? [[String: Any]] {
                 //If you want array of task id you can try like
                 let nameArray = array.flatMap { $0["name"] as? String }
@@ -121,14 +120,6 @@ class BeerViewController: BaseViewController, UITableViewDelegate, UITableViewDa
             }
             
         }
-    }
-    
-    func loadImage(urlString:String) -> UIImage{
-        
-        let url = URL(string: urlString)
-        let data = try? Data(contentsOf: url!)
-        return UIImage(data: data!)!
-        
     }
     
     func decorateSearchBar(){

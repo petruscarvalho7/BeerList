@@ -180,6 +180,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F404F7F71EA581DD00F1B062 /* Beer */ = {
+			isa = PBXGroup;
+			children = (
+				F4C77CB61E9EDA8E001B5F96 /* BeerViewController.swift */,
+				F4043B411E9F00580076407C /* BeerDetailsViewController.swift */,
+			);
+			name = Beer;
+			sourceTree = "<group>";
+		};
+		F404F7F91EA5824100F1B062 /* InternetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F4043B831E9FA6B70076407C /* Reachability.swift */,
+			);
+			name = InternetConnection;
+			sourceTree = "<group>";
+		};
 		F4C77CA81E9EDA8E001B5F96 = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +227,6 @@
 				F4C77CE61E9EEA86001B5F96 /* ViewControllers */,
 				F4C77CE21E9EE60C001B5F96 /* Util */,
 				F4C77CBB1E9EDA8E001B5F96 /* Assets.xcassets */,
-				F4C77CBD1E9EDA8E001B5F96 /* LaunchScreen.storyboard */,
 				F4C77CC01E9EDA8E001B5F96 /* Info.plist */,
 			);
 			path = Cervas;
@@ -237,8 +253,8 @@
 		F4C77CE21E9EE60C001B5F96 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				F404F7F91EA5824100F1B062 /* InternetConnection */,
 				F4C77CE31E9EE613001B5F96 /* TableViewCells */,
-				F4043B831E9FA6B70076407C /* Reachability.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -254,8 +270,7 @@
 		F4C77CE61E9EEA86001B5F96 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F4C77CB61E9EDA8E001B5F96 /* BeerViewController.swift */,
-				F4043B411E9F00580076407C /* BeerDetailsViewController.swift */,
+				F404F7F71EA581DD00F1B062 /* Beer */,
 				F4043B8A1E9FB0750076407C /* BaseViewController.swift */,
 			);
 			name = ViewControllers;
@@ -273,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				F4C77CB81E9EDA8E001B5F96 /* Main.storyboard */,
+				F4C77CBD1E9EDA8E001B5F96 /* LaunchScreen.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
