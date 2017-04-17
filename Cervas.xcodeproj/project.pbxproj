@@ -209,7 +209,6 @@
 				F4C77CE71E9EEA93001B5F96 /* Delegate */,
 				F4C77CE61E9EEA86001B5F96 /* ViewControllers */,
 				F4C77CE21E9EE60C001B5F96 /* Util */,
-				F4C77CB41E9EDA8E001B5F96 /* AppDelegate.swift */,
 				F4C77CBB1E9EDA8E001B5F96 /* Assets.xcassets */,
 				F4C77CBD1E9EDA8E001B5F96 /* LaunchScreen.storyboard */,
 				F4C77CC01E9EDA8E001B5F96 /* Info.plist */,
@@ -265,6 +264,7 @@
 		F4C77CE71E9EEA93001B5F96 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
+				F4C77CB41E9EDA8E001B5F96 /* AppDelegate.swift */,
 			);
 			name = Delegate;
 			sourceTree = "<group>";
